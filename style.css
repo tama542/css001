@@ -1,0 +1,331 @@
+
+/* {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    color:black;
+    font;
+}
+
+
+
+
+ .hello h1 {
+    color: green;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.hello h1:hover {
+    background-color: aqua;
+}
+
+h2, p{
+    margin-left: 3%;
+    
+}
+
+.hello h3 {
+ text-align: center;
+}
+ .learn h2 {
+    text-align: center;
+}
+
+button:active {
+    background-color: blue;
+    color: yellow;
+}
+ul li:first-child {
+    color: aqua;
+}
+ul {
+    text-align: center;
+}
+
+ul li:last-child {
+    color:green;
+}
+
+ul li:nth-child(3) {
+    color: blue;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    border: 5px solid red;
+    border-radius: 5px;
+    margin: 100px 100px 100ox;
+    padding: 20px;
+    background-color: #57704C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.images img{
+    width: 100%;
+    height:300px;
+    border-radius: 10%;
+    box-shadow: 0 4px 6px red;
+}
+
+.images{
+    margin-left: 80px;
+    margin-right: 50px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+}
+
+.links {
+    text-align: center;
+}
+
+.button-link{
+    display:inline-block;
+    padding: 10px 20px;
+ text-decoration: none;
+ border:2px solid blue;
+ border-radius: 10px;
+ background-color: transparent;
+ color:blue;
+ font-size: 16px;
+ font-weight: bold;
+transition:all 0,3s ease;
+
+}
+
+.button-link:hover {
+
+    background-color: blue;
+    color: azure;
+    border-color: blue;
+}
+    
+
+table {
+    border: 2px solid greenyellow;
+    border-collapse: separate;
+    border-spacing: 1em 0.5cm;
+    background-color: aliceblue;
+    width: 100%;
+    overflow-x: auto;
+
+}
+
+
+
+.boox tr:nth-child(odd) {
+   background-color:violet ;
+}
+
+th,td {
+    border: 1px solid green;
+    padding: 5px;
+
+}
+
+td {
+    width: 1.5em;
+    height:1em;
+    text-align: center;
+    vertical-align: sub;
+    background-color: aquamarine;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+th{
+    background-color: #57704C;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table1 tr :nth-child(odd) {
+    background-color: gray;
+}
+
+.table1 td:hover {
+    background-color: red;
+}
+
+/*list-styling*/
+/*
+
+.basic-list {
+    margin:20px;
+    list-style-type: circle;
+    font-size: 16px;
+    color: blue;
+    position: relative;
+    padding-left: 25px;
+    list-style-type:"😍";
+}
+
+.demo-cursor {
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 3px solid #ccc;
+    cursor: pointer;
+    }
+   
+    .demo-cursor:hover {
+    background-color: lightgrey;
+    }
+   
+    .default:hover {
+    cursor: default;
+    }
+   
+    .auto {
+    cursor: auto;
+    }
+   
+    .crosshair {
+    cursor: crosshair;
+    }
+   
+    .pointer {
+    cursor: pointer;
+    }
+   
+    .move {
+    cursor: move;
+    }
+   
+    .text {
+    cursor: text;
+    }
+   
+    .wait {
+    cursor: wait;
+    }
+   
+    .help {
+    cursor: help;
+    }
+   
+    .not-allowed {
+    cursor: not-allowed;
+    }
+   
+    .progress {
+    cursor: progress;
+    }
+   
+    .alias {
+    cursor: alias;
+    }
+   
+    .copy {
+    cursor: copy;
+    }
+   
+    .no-drop {
+    cursor: no-drop;
+    }
+   
+    .e-resize {
+    cursor: e-resize;
+    }
+   
+    .n-resize {
+    cursor: n-resize;
+    }
+   
+    .ne-resize {
+    cursor: ne-resize;
+    }
+   
+    .nw-resize {
+    cursor: nw-resize;
+    }
+   
+    .s-resize {
+    cursor: s-resize;
+    }
+   
+    .se-resize {
+    cursor: se-resize;
+    }
+   
+    .sw-resize {
+    cursor: sw-resize;
+    }
+   
+    .w-resize {
+    cursor: w-resize;
+    }
+   
+    .ew-resize {
+    cursor: ew-resize;
+    }
+   
+    .ns-resize {
+    cursor: ns-resize;
+    }
+   
+    .nesw-resize {
+    cursor: nesw-resize;
+    }
+   
+    .nwse-resize {
+    cursor: nwse-resize;
+    }
+   
+    .col-resize {
+    cursor: col-resize;
+    }
+   
+    .row-resize {
+    cursor: row-resize;
+    }
+   
+    .zoom-in {
+    cursor: zoom-in;
+    }
+   
+    .zoom-out {
+    cursor: zoom-out;
+    }
+   
+    .grab {
+    cursor: grab;
+    }
+   
+    .cell {
+    cursor: cell;
+    }
+   
+    .grabbing {
+    cursor: grabbing;
+    }
+   
+    .all-scroll {
+    cursor: all-scroll;
+    }
+*/
+
+
+
+
+
+.form{
+    text-align: center;
+
+
+
+}
+.button {
+    background-color: green;
+    
+}
+
